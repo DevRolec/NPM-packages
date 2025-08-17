@@ -177,5 +177,80 @@ npm install express bcryptjs jsonwebtoken helmet express-rate-limit validator mo
 npm install --save-dev jest supertest nodemon
 ```
 
+## 🏨 Useful NPM Packages for a Hotel Management App
 
+| Category              | Package(s)                              | Description / Use Case Example                               |
+|-----------------------|------------------------------------------|-------------------------------------------------------------|
+| **Backend / API**     | express, cors, morgan                   | Web framework, CORS handling, request logging               |
+| **Security & Auth**   | bcryptjs, jsonwebtoken, helmet, express-rate-limit | Password hashing, JWT auth, secure headers, brute-force protection |
+| **Database**          | mongoose, sequelize, redis              | Manage bookings, guests, rooms with MongoDB/SQL & caching   |
+| **Reservations**      | dayjs, node-cron, uuid                  | Handle check-in/out dates, schedule tasks, unique booking IDs |
+| **Payments**          | stripe, paypal-rest-sdk, flutterwave-node, paystack-node | Process card, PayPal, and local payments                   |
+| **Reporting**         | exceljs, pdfkit, csv-parser             | Export reports, generate invoices, import/export CSV data    |
+| **Notifications**     | nodemailer, twilio, whatsapp-web.js     | Email confirmations, SMS/WhatsApp booking alerts            |
+| **Real-Time**         | socket.io, bull                         | Real-time updates for room availability & staff dashboards  |
+| **Testing**           | jest, mocha, chai, supertest            | Unit & API endpoint testing                                 |
+| **Utilities**         | dotenv, lodash, validator               | Env variables, data helpers, input validation               |
 
+```
+npm install express cors morgan mongoose bcryptjs jsonwebtoken helmet express-rate-limit dayjs node-cron uuid stripe nodemailer socket.io pdfkit exceljs twilio
+npm install --save-dev jest supertest nodemon
+```
+## 🏫 Useful NPM Packages for a School Management App
+
+| Category              | Package(s)                                      | Description / Use Case Example                              |
+|-----------------------|-------------------------------------------------|------------------------------------------------------------|
+| **Backend / API**     | express, cors, morgan                           | Web framework, CORS handling, request logging               |
+| **Security & Auth**   | bcryptjs, jsonwebtoken, helmet, express-rate-limit, validator | Secure logins, JWT authentication, input validation, brute-force protection |
+| **Database**          | mongoose, sequelize, redis                      | Manage student data, classes, attendance, caching           |
+| **Scheduling**        | dayjs, node-cron, uuid                          | Handle timetables, automate attendance reports, unique IDs  |
+| **Payments (Fees)**   | stripe, paypal-rest-sdk, flutterwave-node, paystack-node | Online fee payments (global & local methods)                |
+| **Reporting**         | exceljs, pdfkit, csv-parser                     | Export attendance/marksheets, generate reports & certificates |
+| **Notifications**     | nodemailer, twilio, whatsapp-web.js             | Send report cards, announcements, SMS/WhatsApp alerts       |
+| **Real-Time**         | socket.io, bull                                 | Live class updates, teacher–student chat, batch notifications |
+| **Testing**           | jest, mocha, chai, supertest                    | Unit testing & API endpoint testing                         |
+| **Utilities**         | dotenv, lodash, validator                       | Env variables, helper functions, extra validation           |
+
+```
+npm install express cors morgan mongoose bcryptjs jsonwebtoken helmet express-rate-limit validator dayjs node-cron uuid stripe nodemailer socket.io pdfkit exceljs twilio
+npm install --save-dev jest supertest nodemon
+```
+## 📚 Useful NPM Packages for a Learning Management App
+
+| Category              | Package(s)                                      | Description / Use Case Example                              |
+|-----------------------|-------------------------------------------------|------------------------------------------------------------|
+| **Backend / API**     | express, cors, morgan                           | Web framework, CORS handling, request logging               |
+| **Security & Auth**   | bcryptjs, jsonwebtoken, helmet, express-rate-limit, validator | Password hashing, JWT auth, secure headers, brute-force protection |
+| **Database & Storage**| mongoose, sequelize, redis, multer, cloudinary  | Manage users, courses, lessons, file uploads, and caching   |
+| **Scheduling**        | dayjs, node-cron, uuid                          | Handle deadlines, reminders, unique course/enrollment IDs   |
+| **Content & Comm**    | socket.io, webrtc, markdown-it                  | Real-time chat, video conferencing, formatted course notes  |
+| **Payments**          | stripe, paypal-rest-sdk, flutterwave-node, paystack-node | Online course payments (global & local)                     |
+| **Reporting**         | exceljs, pdfkit, chart.js, recharts, csv-parser | Export reports, generate certificates, visualize analytics |
+| **Notifications**     | nodemailer, twilio, whatsapp-web.js             | Email enrollments, SMS/WhatsApp reminders                  |
+| **Real-Time**         | socket.io, bull                                 | Live class updates, chat, job queues                        |
+| **Testing**           | jest, mocha, chai, supertest                    | Unit & API endpoint testing                                |
+| **Utilities**         | dotenv, lodash, validator                       | Env variables, helpers, input validation                   |
+
+```
+npm install express cors morgan mongoose bcryptjs jsonwebtoken helmet express-rate-limit validator multer cloudinary dayjs node-cron uuid socket.io webrtc stripe nodemailer pdfkit exceljs chart.js
+npm install --save-dev jest supertest nodemon
+```
+## 🔗 Useful NPM Packages for Web3 & Crypto Applications
+
+| Category              | Package(s)                                      | Description / Use Case Example                             |
+|-----------------------|-------------------------------------------------|-----------------------------------------------------------|
+| **Blockchain**        | web3.js, ethers.js, wagmi, viem                 | Interact with Ethereum & EVM chains, read/write contracts |
+| **Wallets**           | @walletconnect/client, @metamask/detect-provider, rainbowkit, web3modal | Connect dApps to wallets (MetaMask, TrustWallet, Rainbow) |
+| **Smart Contracts**   | hardhat, truffle, ganache, openzeppelin/contracts | Compile, deploy, test contracts, use secure ERC standards |
+| **Payments**          | coinbase-commerce-node, bitcore-lib, bitcoinjs-lib, stripe (with crypto plugins) | Accept crypto or card payments in dApps                   |
+| **APIs & Data**       | moralis, alchemy-sdk, @solana/web3.js, @polkadot/api | Web3 APIs for NFTs, balances, transactions, multi-chain   |
+| **Security**          | crypto-js, eth-crypto, bcryptjs, argon2         | Encryption, hashing, Ethereum-specific cryptography       |
+| **Utilities**         | dotenv, uuid, axios                             | Manage secrets, generate IDs, call blockchain APIs        |
+| **Notifications**     | nodemailer, twilio, whatsapp-web.js             | Send confirmations & alerts (email, SMS, WhatsApp)        |
+| **Testing**           | jest, chai, mocha, supertest                    | Test smart contracts & backend APIs                       |
+| **NFT / Storage**     | ipfs-http-client                                | Store NFT metadata and files on IPFS                      |
+
+```
+npm install express dotenv axios web3 ethers @walletconnect/client @metamask/detect-provider web3modal openzeppelin/contracts
+npm install --save-dev hardhat jest chai mocha
+```
