@@ -15,6 +15,7 @@
 | **Fake Data**         | @faker-js/faker, dummyjson  | Generate test/fake data                               | Prototyping, testing ecommerce UI |
 
 ## 🛍️ Ecommerce Backend (Express + MongoDB)
+```Json
 {
   "name": "ecommerce-backend",
   "version": "1.0.0",
@@ -41,6 +42,7 @@
     "supertest": "^6.3.3"
   }
 }
+```
 👉 Includes:
 
 Auth: bcryptjs, jsonwebtoken
@@ -52,6 +54,7 @@ Email: nodemailer
 Dev tools: nodemon, jest, supertest
 
 ##✍️ Blog Platform (React + Node)
+```Json
 {
   "name": "blog-platform",
   "version": "1.0.0",
@@ -76,6 +79,7 @@ Dev tools: nodemon, jest, supertest
     "prettier": "^3.1.1"
   }
 }
+```
 👉 Includes:
 
 UI & Routing: react, react-router-dom
@@ -87,6 +91,7 @@ HTTP Requests: axios
 Code Quality: eslint, prettier
 
 ##📦 Inventory Management App — package.json
+```json
 {
   "name": "inventory-management",
   "version": "1.0.0",
@@ -127,6 +132,7 @@ Code Quality: eslint, prettier
     "supertest": "^6.3.3"
   }
 }
+```
 🔑 What’s Included & Why
 
 express, cors, helmet, morgan → API server, security, request logging.
